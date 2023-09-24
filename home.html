@@ -15,29 +15,26 @@ Date Started:     Sept, 09, 2023
 <link rel = "stylesheet" href="style.css">
 </head>
 <body class="backgroundMaterial">
-    <p>Welcome to my page! I am Ashamsa Adhikari.
-        Talk to me in: English Nepali Hindi
-    </p>
-    <p>Personal links</p>
-    <nav class = "navigationBar"> 
-        <div class = "logo">
-            <img src = "Ashamsa Adhikari.png" height = "200px" alt = "name">
-        </div>
-        <ul class = "navList">
-        <li class = "listItem"><a href="home.html"><img src = "cute home.png" id= "homeicon" alt = "icon of a home" width="35"></a></li>
+    <nav class = "navigationBar">
+            <ul class = "logo"><li class = "logoClass">Ashamsa&nbsp;Adhikari</li></ul>
+            <div class = "active">
+        <ul class = "navList" id = "naviList">
+            <li class = "listItem"><a href="home.html"><img src = "cute home.png" id= "homeicon" alt = "icon of a home" width="35"></a></li>
             <li class = "listItem"><a href="workExperience.html">Experience</a></li>
-                <li class = "listItem"><a href="communityinvolvement.html">Community Involvement</a></li>
-                    <li class = "listItem"><a href="education.html">Education</a></li>
-                        <li class = "listItem"><a href="certifications.html">Certifications</a></li>
-                            <li class = "listItem"><img src = "tie.png" id = "icon" alt = "icon of a tie" /></li>
+            <li class = "listItem"><a href="communityinvolvement.html">Community Involvement</a></li>
+            <li class = "listItem"><a href="education.html">Education</a></li>
+            <li class = "listItem"><a href="certifications.html">Certifications</a></li>
+            <li class = "listItem"><img src = "tie.png" id = "icon" alt = "icon of a tie" /></li>
         </ul>
-        <div class = "menu">
+            </div>
+        <div class = "menu" id = "togglebutton">
             <div class = "menu-line"></div>
             <div class = "menu-line"></div>
             <div class = "menu-line"></div>
         </div>
     </nav>
-    <div class="banner"><img src = "Banner.png" alt = Initial AA with the name Ashamsa Adhikari" width="100%" height="auto"/></div>
+    <br />
+    <br />
     <a href = "https://www.linkedin.com/in/ashamsa/"><img src = "LinkedInLogo.png" alt = "LinkedIn Logo"/></a>
     <a href = "https://github.com/AnnaAdk/"><img src = "GitHub_Logo.png" alt = "GitHub Logo" height="45"/></a>
 <script>
@@ -51,6 +48,13 @@ Date Started:     Sept, 09, 2023
             icon.src = "tie.png";
             homeicon.src = "cute home.png";
         }
+    }
+    const togglebutton = document.getElementbyId('togglebutton');
+    const naviList = document.getElementById('naviList');
+    menu.onclick = function(){
+    naviList.classList.toggle("active");
+    if (document.body.classList.contains("acti"){
+        
     }
 </script>
 </body>
