@@ -34,9 +34,10 @@ html{
 }
 .elements .content{
     background-color: grey;
-    width: 700px;
-    float: none;
-    height: 200;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    height: 700px;
     overflow: hidden;
     text-align: center;
 }
@@ -219,6 +220,16 @@ body.dark .search-field i{
     background-color: var(--body-color);
     color: white;
     text-align: center;
+  }
+
+  .experiences{
+    padding: 100px;
+    color : var(--text-color);
+  }
+  .experiences th{
+    text-align: center;
+    font-size: 30px;
+
   }
 
 @media (max-width: 1000px) {

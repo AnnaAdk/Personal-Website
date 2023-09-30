@@ -8,7 +8,8 @@
 
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="style2.css">
-        
+    <link rel="stylesheet" href="cursor.css">
+
     <!-- ===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -17,6 +18,8 @@
      <title>Responsive Navigation Menu Bar</title>
 </head>
 <body>
+    <div class="cursor outer"></div>
+    <div class="cursor inner"></div>
     <nav>
         <div class="nav-bar">
             <i class='bx bx-menu sidebarOpen' ></i>
@@ -55,14 +58,21 @@
         </header>
         <section><a id ="Experience">Experience</a></section>
         <div class = "elements">
-            <span class = "content">
-            This is elements</span></div>
+            <div class = "content">
+                <table class = "experiences">
+                    <tr>
+                    <th colspan = "2">DXC Technology</th></tr>
+                    <tr><td><img src = "dxclogo.png" alt = "dxc logo" width="100px" ></td>
+                    <td>Undergraduate intern</td></tr>
+                </table>
+            </div></div>
         <section><a id ="Education">Education</a></section>
         <section><a id ="Certifications">Certifications</a></section>
         <section><a id ="Community">Community Involvement</a></section>
         <section><a id = "Contact">Contact</a></section>
       </div>
     </div>
+    <script src="cursor.js"></script>
 <script>
 
 const body = document.querySelector("body"),
