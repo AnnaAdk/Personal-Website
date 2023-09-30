@@ -12,6 +12,7 @@
     <!-- ===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel = "shortcut icon" href = "pink.png">
 
      <title>Responsive Navigation Menu Bar</title>
 </head>
@@ -29,10 +30,13 @@
 
                 <ul class="nav-links">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Community Involvement</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Certifications">Certifications</a></li>
+                    <li><a href="#Community">Community Involvement</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href = "https://www.linkedin.com/in/ashamsa/" ><i class='bx bxl-linkedin' style='color:#ffffff' ></a></i></li>
+                    <li><a href = "https://github.com/AnnaAdk"><i class='bx bxl-github' style='color:#ffffff'></i></a></li>
                 </ul>
             </div>
 
@@ -44,9 +48,18 @@
             </div>
         </div>
     </nav>
-    <div class="bg"></div>
-
-
+    <div class="content">
+    <div class="wrapper">
+        <header><a id = "home"></a>
+          <h1 class="title">Welcome!</h1>
+        </header>
+        <section><a id ="Experience">Experience</a></section>
+        <section><a id ="Education">Education</a></section>
+        <section><a id ="Certifications">Certifications</a></section>
+        <section><a id ="Community">Community Involvement</a></section>
+        <section><a id = "Contact">Contact</a></section>
+      </div>
+    </div>
 <script>
 
 const body = document.querySelector("body"),
