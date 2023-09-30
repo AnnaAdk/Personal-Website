@@ -1,5 +1,0 @@
-Home: introduction
-Experience:
-Projects: 
-Resume: 
-Education: 

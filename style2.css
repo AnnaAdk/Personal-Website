@@ -21,8 +21,25 @@ html{
     --search-bar: #F2F2F2;
     --search-text: #010718;
     --content-text: black;
+    --elements-color: red;
 }
-
+.elements{
+    background-color: var(--body-color);
+    color: var(--text-color);
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+}
+.elements .content{
+    background-color: grey;
+    width: 700px;
+    float: none;
+    height: 200;
+    overflow: hidden;
+    text-align: center;
+}
 body{
     height: 100vh;
     background-color: var(--body-color);
@@ -38,6 +55,7 @@ body.dark{
     --text-color: #CCC;
     --search-bar: #242526;
     --content-text: white;
+    --elements-color: #393838;
 }
 .content{
     padding-top: 80px;
