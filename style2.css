@@ -14,7 +14,7 @@ html{
 }
 /* ===== Colours ===== */
 :root{
-    --body-color: #FEC5E5;
+    --body-color: #fff1d0;
     --nav-color: #9E4244;
     --side-nav: #010718;
     --text-color: #FFF;
@@ -46,9 +46,6 @@ body{
     background-color: var(--body-color);
 }
 
-
-
-
 body.dark{
     --body-color: #18191A;
     --nav-color: #242526;
@@ -68,7 +65,7 @@ nav{
     height: 70px;
     width: 100%;
     background-color: var(--nav-color);
-    z-index: 999;
+    z-index: 700;
 }
 
 body.dark nav{
@@ -86,6 +83,7 @@ nav .nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 0;
 }
 
 nav .nav-bar .sidebarOpen{
@@ -176,7 +174,7 @@ nav .nav-bar .logo a{
 
 .dark-light.active i.sun{
     opacity: 1;
-    pointer-events: auto;
+    pointer-events: none;
 }
 
 .dark-light.active i.moon{

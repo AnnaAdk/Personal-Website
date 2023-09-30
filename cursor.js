@@ -1,5 +1,5 @@
 const cursor = document.querySelectorAll(".cursor");
-const links = document.querySelectorAll(".link");
+const links = document.querySelectorAll(".a");
 
 window.addEventListener("mousemove", (e) => {
   
