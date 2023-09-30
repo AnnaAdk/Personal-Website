@@ -18,7 +18,7 @@
     pointer-events: none;
   }
   
-  .link {
+  .a {
     text-decoration: none;
     color: #f7f7f7;
   }
@@ -40,6 +40,7 @@
   .inner {
     background: #ae70db;
     transition: 250ms ease-out;
+    opacity: 0.5;
   }
   
   .cursor.hover {

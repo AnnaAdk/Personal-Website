@@ -23,28 +23,12 @@ html{
     --content-text: black;
     --elements-color: red;
 }
-.elements{
-    background-color: var(--body-color);
-    color: var(--text-color);
-    height: 200px;
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-    float: left;
-}
-.elements .content{
-    background-color: grey;
-    width: 75%;
-    display: flex;
-    justify-content: center;
-    height: 700px;
-    overflow: hidden;
-    text-align: center;
-}
+
 body{
     height: 100vh;
     background-color: var(--body-color);
 }
+
 
 body.dark{
     --body-color: #18191A;
@@ -216,7 +200,7 @@ body.dark .search-field i{
     font-size: 2rem;
     padding: 2rem;
     background-color: var(--body-color);
-    color: white;
+    color: var(--content-text);
     text-align: center;
   }
 

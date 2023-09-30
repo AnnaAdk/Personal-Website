@@ -1,0 +1,19 @@
+.workexp {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+}
+.workexp .logoimage{
+    height: 250px;
+}
+
+.workexp h1{
+    margin:0;
+    color: greenyellow;
+}
+
+.workexp p{
+    color: #c0bdbd;
+}

@@ -9,12 +9,12 @@
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="cursor.css">
-
+    <link rel = "stylesheet" href="scrollingtimeline.css">
     <!-- ===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel = "shortcut icon" href = "pink.png">
-
+    <link rel = "stylesleet" href = "workexperience.css">
      <title>Responsive Navigation Menu Bar</title>
 </head>
 <body>
@@ -57,16 +57,30 @@
           <h1 class="title">Welcome!</h1>
         </header>
         <section><a id ="Experience">Experience</a></section>
-        <div class = "elements">
-            <div class = "content">
-                <table class = "experiences">
-                    <tr>
-                    <th colspan = "2">DXC Technology</th></tr>
-                    <tr><td><img src = "dxclogo.png" alt = "dxc logo" width="100px" ></td>
-                    <td>Undergraduate intern</td></tr>
-                </table>
-            </div></div>
+        <div class = "workexp">
+            <div class = "text">
+                <h1>Heading</h1>
+                <p>This is going to be the details
+                </div>
+                <img src ="dxclogo.png" alt = "dxcLogo" class = "logo-image" />
+                </p>
+</div>
         <section><a id ="Education">Education</a></section>
+        <div class="timeline">
+            <div class="container left">
+              <div class="content">
+                <h2>University of Louisiana Monroe</h2>
+                <h4>(2021-2024)</h4>
+                <p>Computer Science major with a minor in Mathematics</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>St.Xavier's College </h2><h4>(2017-2019)</h4>
+                <p>Cambridge A-Levels</p>
+              </div>
+            </div>
+          </div>
         <section><a id ="Certifications">Certifications</a></section>
         <section><a id ="Community">Community Involvement</a></section>
         <section><a id = "Contact">Contact</a></section>
@@ -74,5 +88,6 @@
     </div>
     <script src="cursor.js"></script>
     <script src="format.js"></script>
+    <script src = "timeline.js"></script>
 </body>
 </html>
