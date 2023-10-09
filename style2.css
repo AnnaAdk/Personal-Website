@@ -27,6 +27,7 @@ html{
 body{
     height: 100vh;
     background-color: var(--body-color);
+    margin:0;
 }
 
 
