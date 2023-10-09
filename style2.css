@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,500;0,600;1,300;1,400&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -44,6 +43,19 @@ nav{
 html{
     scroll-behavior: smooth;
 }
+
+.exContent {
+    width: 50%;
+    background-color: var(--exppanel-color);
+    min-height: 100px; /* Increase the height or use min-height */
+    overflow: hidden;
+    position: relative;
+    padding-left: 10px; /* Reduce the padding to a reasonable value */
+    text-align: center;
+    box-shadow: 10px 10px var(--shadow-color);
+    border-style: solid;
+    font-size: 20px;
+  }
 /* ===== Colours ===== */
 :root{
     --body-color: #fff1d0;
@@ -54,6 +66,8 @@ html{
     --search-text: #010718;
     --content-text: black;
     --elements-color: red;
+    --exppanel-color: #f09f9c;
+    --shadow-color: #632b6c;
 }
 body.dark nav{
     border: 1px solid #393838;
@@ -65,7 +79,9 @@ body{
     background-color: var(--body-color);
     margin:0;
 }
-
+.explogo{
+    width: 100px;
+}
 nav .nav-bar{
     position: relative;
     height: 100%;
@@ -102,6 +118,8 @@ body.dark{
     --search-bar: #242526;
     --content-text: white;
     --elements-color: #393838;
+    --exppanel-color: #1d0c29;
+    --shadow-color: #632b6c;
 }
 .menu .logo-toggle{
     display: none;
