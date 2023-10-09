@@ -1,0 +1,11 @@
+.exContent {
+    width: 50%;
+    background-color: aqua;
+    min-height: 100px; /* Increase the height or use min-height */
+    overflow: hidden;
+    position: relative;
+    padding-left: 10px; /* Reduce the padding to a reasonable value */
+    border-style: dashed;
+    text-align: center;
+  }
+  
