@@ -59,7 +59,7 @@ html{
 /* ===== Colours ===== */
 :root{
     --body-color: #fff1d0;
-    --nav-color: #9E4244;
+    --nav-color: #653343;
     --side-nav: #010718;
     --text-color: #FFF;
     --search-bar: #F2F2F2;
@@ -67,7 +67,7 @@ html{
     --content-text: black;
     --elements-color: red;
     --exppanel-color: #f09f9c;
-    --shadow-color: #632b6c;
+    --shadow-color: #934683;
 }
 body.dark nav{
     border: 1px solid #393838;
@@ -81,6 +81,7 @@ body{
 }
 .explogo{
     width: 100px;
+    background-color: var(--content-text);
 }
 nav .nav-bar{
     position: relative;
@@ -118,7 +119,7 @@ body.dark{
     --search-bar: #242526;
     --content-text: white;
     --elements-color: #393838;
-    --exppanel-color: #1d0c29;
+    --exppanel-color: #2D1115;
     --shadow-color: #632b6c;
 }
 .menu .logo-toggle{
