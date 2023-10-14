@@ -40,22 +40,33 @@ nav{
     z-index: 700;
 }
 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: lightpink; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 10px; /* Increase font size */
+    box-shadow: 10px 10px grey;
+    opacity: 0.7;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
 html{
     scroll-behavior: smooth;
 }
 
-.exContent {
-    width: 50%;
-    background-color: var(--exppanel-color);
-    min-height: 100px; /* Increase the height or use min-height */
-    overflow: hidden;
-    position: relative;
-    padding-left: 10px; /* Reduce the padding to a reasonable value */
-    text-align: center;
-    box-shadow: 10px 10px var(--shadow-color);
-    border-style: solid;
-    font-size: 20px;
-  }
+
 /* ===== Colours ===== */
 :root{
     --body-color: #fff1d0;
@@ -79,10 +90,35 @@ body{
     background-color: var(--body-color);
     margin:0;
 }
-.explogo{
-    width: 100px;
-    background-color: var(--content-text);
+
+.exContent {
+    width: 50%;
+    background-color: var(--exppanel-color);
+    min-height: 100px; /* Increase the height or use min-height */
+    overflow: hidden;
+    position: relative;
+    padding-left: 10px; /* Reduce the padding to a reasonable value */
+    text-align: center;
+    box-shadow: 10px 10px var(--shadow-color);
+    border-style: solid;
+    font-size: 20px;
+    margin: 20px;
+  }
+
+.expcontainer{
+    width: 100%;
 }
+.explogo{
+    background-color: whitesmoke;
+    float: left;
+
+}
+.exptext{
+    float: right;
+    padding: 10px;
+    margin: 20px;
+}
+
 nav .nav-bar{
     position: relative;
     height: 100%;
