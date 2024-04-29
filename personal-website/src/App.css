@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+.background-div{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.navbar{
+  background-color: #805C5F;
+  position: fixed;
+  left: 0px;
+  width: 100vw;
+  color: #f9f6f6;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Ivar Text', 'Georgia', serif;
+  font-size: 10rem !important;
+}
